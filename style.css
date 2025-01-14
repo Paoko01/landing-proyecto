@@ -2,6 +2,7 @@
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
+	background-color: white;
 }
 
 
@@ -14,6 +15,7 @@ width: 10%;
 }
 .nav-item {
 	font-weight: 600;
+	background-color: white;
 }
 .carousel-item h1 {
 	color: #171c2b;
@@ -88,4 +90,16 @@ width: 10%;
     font-weight: 700;
     line-height: 110%;
     display: block;
+}
+
+
+.btn-primary {
+	font-size: 18px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 32px;
+	padding-right: 32px;
+	margin-bottom: 100px;
+	margin-left: 300px;
+	border-radius: 32px;
 }
