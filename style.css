@@ -1,0 +1,91 @@
+.header {
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+
+.carousel-item {
+	margin-top: 200px;
+}
+.navbar-brand{
+height: 10%;
+width: 10%;
+}
+.nav-item {
+	font-weight: 600;
+}
+.carousel-item h1 {
+	color: #171c2b;
+    letter-spacing: -2px;
+    width: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+	margin-left: 300px;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 110%;
+	text-align: left;
+}
+.carousel-item p {
+	font-family: "helvetica", sans-serif;
+	font-weight: 400;
+	margin-left: 300px;
+	font-size: 32px;
+	text-align: left;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.header {
+		background-position: 68%;
+	}
+	.carousel-item {
+		margin-top: 50%;
+	}
+}
+@media (max-width: 767px) {
+	.carousel-item {
+		margin-top: 45%;
+	}
+	.carousel-item h1 {
+		font-size: 32px;
+	}
+}
+
+
+.carousel-item {
+	background-position: center center; /* Centra la imagen de fondo */
+	background-size: cover; /* Hace que la imagen cubra todo el contenedor */
+  }
+
+  .imagenBanner {
+	height: 5%;
+	width: 50%;
+	margin-bottom: 80px;
+  }
+
+.carousel-inner {
+	padding-top: 0px;
+}
+
+.btn {
+	font-size: 18px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 32px;
+	padding-right: 32px;
+	margin-bottom: 100px;
+	margin-left: 300px;
+	border-radius: 32px;
+}
+
+.heading-main-2024-2 {
+    color: #171c2b;
+    letter-spacing: -2px;
+    width: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 110%;
+    display: block;
+}
